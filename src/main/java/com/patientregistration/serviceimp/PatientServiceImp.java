@@ -3,11 +3,12 @@ package com.patientregistration.serviceimp;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.patientregistration.model.Patient;
 import com.patientregistration.repository.PatientRepository;
 import com.patientregistration.service.PatientService;
-
+@Service
 public class PatientServiceImp implements PatientService{
 
 	@Autowired
